@@ -1,0 +1,13 @@
+pandas
+requests
+pymongo
+pytz
+xlrd
+matplotlib
+scikit-learn
+seaborn
+nltk
+Theano
+tensorflow
+jupyter
+pandasql

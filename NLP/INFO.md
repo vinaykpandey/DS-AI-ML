@@ -23,3 +23,23 @@ stem
 coder - code
 coding - code
 coders - code
+
+Structure Data:
+    - Highly Organized
+    - Well-formatted
+    - Easily searchable in RDB
+    e.g.: names, dates, stack info, purchase history etc
+
+Unstructured Data
+    - No pre-defined format
+    - Difficult to process, collect, analyze
+    e.g.:
+    - tweets of a user
+    - text
+    - video
+    - audio
+    - social media activity
+    -surveillance imagery
+    
+ UD - data processing - SD
+ 

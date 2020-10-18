@@ -43,3 +43,9 @@ Unstructured Data
     
  UD - data processing - SD
  
+ Exploration of Data Set
+    - how many rows are there in the dataset
+    - how  many col1/col2  (in what ratio)
+    - missing data in any columns - ignore those rows
+   
+ 

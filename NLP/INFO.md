@@ -48,4 +48,7 @@ Unstructured Data
     - how  many col1/col2  (in what ratio)
     - missing data in any columns - ignore those rows
    
+  NLP pipeline: Text Data
+  Raw Text -> Tokenization -> Text Cleaning -> Vectorization -> ML Algo -> Spam Filter
+  
  

@@ -1,16 +1,15 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
 import numpy as np
 from scipy import interpolate
 
-n = int(raw_input())
+n = int(input())
 prices = []
-for i in xrange(n):
-    time, price = raw_input().split("\t")
+for i in range(n):
+    time, price = input().split("\t")
     prices.append(price)
 x = []
 prices_float = []
 x_unknown = []
-for i in xrange(n):
+for i in range(n):
     if not "Missing" in prices[i]:
         x.append(i)
         prices_float.append(float(prices[i]))
@@ -20,4 +19,4 @@ y = np.array(prices_float)
 f = interpolate.UnivariateSpline(x, y, s=1)
 
 for i in x_unknown:
-    print f(i)
+    print(f(i))

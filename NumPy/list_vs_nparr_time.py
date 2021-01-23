@@ -16,13 +16,9 @@ a1 = np.arange(SIZE)
 a2 = np.arange(SIZE)
 
 start = time.time()
-
-ResultList = [(x+y) for x,y in zip (l1, l2)]
-
-print ("List took: ", (time.time() - start)*100)
-
+res_list = [(x+y) for x,y in zip (l1, l2)]
+print ("list took: ", (time.time() - start)*100)
 
 start = time.time()
-
-ResultNumPy = a1+a2
-print ("NumPy array took: ", (time.time() - start)*100)
+result_numpy = a1+a2
+print ("numpy array took: ", (time.time() - start)*100)

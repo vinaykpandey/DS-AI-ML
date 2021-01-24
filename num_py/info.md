@@ -5,12 +5,15 @@
 Application Area
 ----------------
 Data Analysis
+
 Machine Learning
+
 Scientific Computations
 
 Foundation Facts
 ----------------
 :- ndarray objects
+
 :- in ndarray, we can store multiple items of the same data types
 
 
@@ -37,9 +40,13 @@ slicing operator
 >>> x = np.array([1])
 >>> x.__sizeof__()
 104
+>>> x.dtype
 
 history
 ------------
 numeric was a lib before numpy
+
 numpy: numeric python
+
 written in c and py
+

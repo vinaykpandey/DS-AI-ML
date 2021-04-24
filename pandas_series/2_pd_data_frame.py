@@ -26,5 +26,5 @@ print(df_2)
 df_2.index = ["a", "b", "c", "d", "e"]
 print(df_2)
 
-df = pd.read_csv("pd_data.csv")
+df = pd.read_csv("../plot/pd_data.csv")
 print(df)

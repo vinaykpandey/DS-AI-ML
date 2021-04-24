@@ -12,3 +12,4 @@ tensorflow==2.3.1
 jupyter==1.0.0
 pyspark==3.0.1
 pandas_datareader==0.9.0
+word2number==1.1

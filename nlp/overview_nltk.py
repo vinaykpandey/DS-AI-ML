@@ -35,9 +35,9 @@ fdist = FreqDist()
 for word in AI_tokens:
     fdist[word.lower()] += 1
 
-fdists
+fdist
 fdist_top10 =  fdist.most_common(10)
-fdist_top1
+fdist_top10
 
 from nltk.tokenize import blankline_tokenize
 AI_blank = blankline_tokenize(AI)
